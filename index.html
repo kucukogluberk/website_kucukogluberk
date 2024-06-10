@@ -1,0 +1,17 @@
+---
+layout: default
+title: Home
+---
+<h1>Welcome to My Website</h1>
+<p>This is my homepage built with Jekyll.</p>
+
+<div id="myPlot" style="width:600px;height:400px;"></div>
+<script>
+  var data = [{
+    x: [1, 2, 3, 4],
+    y: [10, 15, 13, 17],
+    type: 'scatter'
+  }];
+  Plotly.newPlot('myPlot', data);
+</script>
+
