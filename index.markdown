@@ -8,7 +8,4 @@ title: Home
 
 # Welcome to My Website
 
-Have I mentioned
-Xinyu is soooooooooooo funny
-
 # This is my homepage built with Jekyll and the Minima theme.
