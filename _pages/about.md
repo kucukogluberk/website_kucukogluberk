@@ -7,5 +7,4 @@ author_profile: true
 
 # About Me
 
-I am Berk Kucukoglu, and this is my personal website.
-
+This is the about page. Here you can write about yourself or your website.

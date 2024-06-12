@@ -1,10 +1,27 @@
 ---
 layout: default
 title: Home
+author_profile: true
 ---
-<h1>Welcome to My Website</h1>
-<p>This is my homepage built with Jekyll.</p>
 
+<div class="main-intro">
+  <img src="{{ '/assets/images/welcome.jpg' | relative_url }}" alt="Welcome Image">
+  <h1>Welcome to My Website</h1>
+  <p>This is the main entrance screen with an awesome welcome message.</p>
+
+  <nav>
+    <ul>
+      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+      <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+      <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+      <li><a href="{{ '/tools/' | relative_url }}">Tools</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+<!-- 
 <div class="main-intro">
   <img src="{{ '/assets/images/sassCat.jpg' | relative_url }}" alt="Welcome Image">
   <h1>Welcome to My Website</h1>
@@ -19,4 +36,4 @@ title: Home
     type: 'scatter'
   }];
   Plotly.newPlot('myPlot', data);
-</script>
+</script> -->
