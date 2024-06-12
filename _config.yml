@@ -98,7 +98,7 @@ author:
   name: "Berk Kucukoglu"
   avatar: "/assets/images/sassCat.jpg"
   bio: "I am an **amazing** person."
-  location: "Somewhere"
+  location: "Switzerland"
   email: "your.name@email.com"
   links:
     # - label: "Email"
@@ -109,7 +109,7 @@ author:
     #   url: "https://www.kucukogluberk.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/your_twitter_username"
+      url: "https://twitter.com/kucukoglu_berk"
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
     #   url: "https://facebook.com/your_facebook_username"
