@@ -5,6 +5,12 @@ title: Home
 <h1>Welcome to My Website</h1>
 <p>This is my homepage built with Jekyll.</p>
 
+<div class="main-intro">
+  <img src="{{ '/assets/images/sassCat.jpg' | relative_url }}" alt="Welcome Image">
+  <h1>Welcome to My Website</h1>
+  <p>This is the main entrance screen with an awesome welcome message.</p>
+</div>
+
 <div id="myPlot" style="width:600px;height:400px;"></div>
 <script>
   var data = [{
@@ -14,4 +20,3 @@ title: Home
   }];
   Plotly.newPlot('myPlot', data);
 </script>
-
