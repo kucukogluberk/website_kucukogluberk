@@ -49,7 +49,7 @@ atom_feed:
 # Search
 search: true
 search_full_content: false
-search_provider: lunr # Options: "lunr", "algolia", "google"
+search_provider: google # Options: "lunr", "algolia", "google"
 lunr:
   search_within_pages: false
 
@@ -267,3 +267,18 @@ defaults:
       comments: true
       share: true
       related: true
+
+# Navigation links
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Tools"
+    url: "/tools/"
+  - title: "Contact"
+    url: "/contact/"
