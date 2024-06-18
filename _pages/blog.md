@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: posts
 title: "Blog"
 permalink: /blog/
 header:
@@ -12,12 +12,14 @@ header:
       url: /about/
     - label: "Blog"
       url: /blog/
-    - label: "Publications"
-      url: /publications/
+    # - label: "Projects"
+    #   url: /projects/
     - label: "Tools"
       url: /tools/
     - label: "Contact"
       url: /contact/
+    - label: "CV"
+      url: /cv/
 ---
 
 # Blog

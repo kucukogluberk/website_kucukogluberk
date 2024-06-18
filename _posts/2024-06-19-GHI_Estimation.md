@@ -1,0 +1,10 @@
+---
+layout: posts
+title: "GHI estimation using Neural Networks"
+date: 2024-06-10 12:00:00 -0000
+show_date: true
+categories: blog
+author: Berk Kucukoglu
+---
+
+Welcome to my blog! This is my first post.

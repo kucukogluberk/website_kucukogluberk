@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Theme Settings
-#theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # Options: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme: "minimal-mistakes-jekyll"
+#remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dirt" #"default" # Options: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
@@ -16,7 +16,7 @@ title: "Berk Kucukoglu"
 title_separator: "-"
 subtitle: "A place for my thoughts and projects"
 name: "Berk Kucukoglu"
-description: "An amazing website."
+description: "Berk's personal website!"
 url: "https://www.kucukogluberk.com" # The base hostname & protocol for your site
 baseurl: "" # The subpath of your site, e.g. "/blog"
 repository: "kucukogluberk/website_kucukogluberk" # GitHub username/repo-name
