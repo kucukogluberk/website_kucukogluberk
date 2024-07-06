@@ -1,0 +1,28 @@
+---
+layout: single
+title: "Tools"
+permalink: /tools/
+author_profile: false
+header:
+  overlay_color: "#333"
+  overlay_image: /assets/images/welcomeBanner.jpg
+  actions:
+    - label: "Home"
+      url: /
+    - label: "About"
+      url: /about/
+    - label: "Blog"
+      url: /blog/
+    # - label: "Projects"
+    #   url: /projects/
+    - label: "Tools"
+      url: /tools/
+    - label: "Contact"
+      url: /contact/
+    - label: "CV"
+      url: /cv/
+---
+
+# Tools
+
+This is the tools page. Describe the tools you use or have developed.

@@ -1,0 +1,284 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Theme Settings
+theme: "minimal-mistakes-jekyll"
+#remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dirt" #"default" # Options: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale: "en-US"
+title: "Berk Kucukoglu"
+title_separator: "-"
+subtitle: "A place for my thoughts and projects"
+name: "Berk Kucukoglu"
+description: "Berk's personal website!"
+url: "https://www.kucukogluberk.com" # The base hostname & protocol for your site
+baseurl: "" # The subpath of your site, e.g. "/blog"
+repository: "kucukogluberk/website_kucukogluberk" # GitHub username/repo-name
+teaser: "/assets/images/placeholders/sassCat.jpg" # Placeholder teaser image
+logo: "/assets/images/placeholders/sassCat.jpg" # Placeholder logo image
+masthead_title: "Welcome to My Website" # Override the website title displayed in the masthead
+
+# General Settings
+words_per_minute: 200
+enable_copy_code_button: true
+
+# Copyright
+copyright: "Berk Kucukoglu"
+copyright_url: "https://www.kucukogluberk.com"
+
+# Comments
+comments:
+  provider: false # Options: "disqus", "discourse", "facebook", "staticman", "utterances", "giscus", "custom"
+
+# reCaptcha
+reCaptcha:
+  siteKey: ""
+  secret: ""
+
+# Atom Feed
+atom_feed:
+  path: "feed.xml"
+  hide: false
+
+# Search
+search: true
+search_full_content: false
+search_provider: google # Options: "lunr", "algolia", "google"
+lunr:
+  search_within_pages: false
+
+# Social Sharing
+twitter:
+  username: "kucukoglu_berk"
+# facebook:
+#   username: "your_facebook_username"
+#   app_id: "your_facebook_app_id"
+#   publisher: "your_facebook_page_id"
+# og_image: "/assets/images/og_image.png"
+
+# Social Profiles
+social:
+  type: "Person" # Options: "Person", "Organization"
+  name: "Berk Kucukoglu"
+  links:
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:your.name@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.kucukogluberk.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/kucukoglu_berk"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   url: "https://facebook.com/your_facebook_username"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/kucukogluberk"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/your_instagram_username"
+
+# Analytics
+analytics:
+  provider: "google" # Options: false, "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id: "YOUR_TRACKING_ID"
+    anonymize_ip: true
+
+# Site Author
+author:
+  name: "Berk Kucukoglu"
+  avatar: "/assets/images/placeholders/sassCat.jpg"
+  bio: "I am an **amazing** person."
+  location: "Switzerland"
+  email: "your.name@email.com"
+  links:
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:your.name@email.com"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://www.kucukogluberk.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/kucukoglu_berk"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   url: "https://facebook.com/your_facebook_username"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kucukogluberk"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/your_instagram_username"
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/kucukoglu_berk"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kucukogluberk"
+    # - label: "Bitbucket"
+    #   icon: "fab fa-fw fa-bitbucket"
+    #   url: "https://bitbucket.org/your_bitbucket_username"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/your_instagram_username"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+timezone: # Add your timezone here, e.g., "America/New_York"
+
+# Pagination with jekyll-paginate
+paginate: 5 # Number of posts to show
+paginate_path: /page:num/
+
+# Pagination with jekyll-paginate-v2
+pagination:
+  # Set enabled to true to use paginate v2
+  # enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  tag: ''
+  locale: ''
+  trail:
+    before: 2
+    after: 2
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+# Navigation links
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Tools"
+    url: "/tools/"
+  - title: "Contact"
+    url: "/contact/"
