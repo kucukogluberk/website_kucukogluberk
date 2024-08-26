@@ -14,8 +14,8 @@ header:
       url: /about/
     - label: "Blog"
       url: /blog/
-    # - label: "Projects"
-    #   url: /projects/
+    - label: "Art"
+      url: /art/
     - label: "Tools"
       url: /tools/
     - label: "Contact"
@@ -70,7 +70,7 @@ feature_row3:
   - image_path: /assets/images/placeholders/placeholder_1.jpg
     alt: "placeholder image 2"
     title: "Art and music related"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    excerpt: 'Coming soon!'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"

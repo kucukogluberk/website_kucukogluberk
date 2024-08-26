@@ -12,8 +12,8 @@ header:
       url: /about/
     - label: "Blog"
       url: /blog/
-    # - label: "Projects"
-    #   url: /projects/
+    - label: "Art"
+      url: /art/
     - label: "Tools"
       url: /tools/
     - label: "Contact"
@@ -21,3 +21,5 @@ header:
     - label: "CV"
       url: /cv/
 ---
+
+Coming soon!

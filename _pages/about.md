@@ -14,6 +14,8 @@ header:
       url: /about/
     - label: "Blog"
       url: /blog/
+    - label: "Art"
+      url: /art/
     - label: "Tools"
       url: /tools/
     - label: "Contact"

@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Contact"
-permalink: /contact/
+title: "Art"
+permalink: /art/
 header:
   overlay_color: "#333"
   overlay_image: /assets/images/welcomeBanner.jpg
@@ -22,6 +22,5 @@ header:
       url: /cv/
 ---
 
-# Contact
-
 Coming soon!
+
